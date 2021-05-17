@@ -1,0 +1,71 @@
+* {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+.container {
+  margin: 14% 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0fr 1fr;
+  color: hsl(204, 43%, 93%);
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+}
+.card-1 {
+  grid-column: span 6;
+  background-color: white;
+  color: hsl(218, 22%, 67%);
+  padding: 30px;
+  border-left: 2px white solid;
+  border-radius: 12px 12px 0px 0px;
+}
+.card-2 {
+  grid-column: span 3;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+  border-radius: 0px 0px 0px 12px;
+}
+.card-3 {
+  grid-column: span 3;
+  background-color: hsl(179, 79%, 44%);
+  padding: 30px 0px;
+  border-radius: 0px 0px 12px 0px;
+}
+.header {
+  font-weight: 700;
+}
+.join-text {
+  color: hsl(179, 62%, 43%);
+}
+.guarantee-text {
+  color: hsl(71, 73%, 54%);
+}
+.price {
+  font-weight: 700;
+  font-size: 29px;
+  color: white;
+}
+.button-signup {
+  background-color: hsl(71, 73%, 54%); /* Green */
+  border: 1px transparent solid;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 85px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  /*box-shadow: rgba(0,0,0,0.8) 0 0 5px;*/
+}
